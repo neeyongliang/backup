@@ -2,7 +2,7 @@
 # Program:
 #	Run this shell script after Install Ubuntu.
 #History:
-# 2016/10/29  wikinee First release
+# 2016/10/29  yongliang First release
 # 2018/10/18  update
 
 echo " Now, Update & Grade ..."

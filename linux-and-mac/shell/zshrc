@@ -78,7 +78,7 @@ export JRE_HOME=${JAVA_HOME}/jre
 export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib
 export PATH=${JAVA_HOME}/bin:$PATH
 
-alias gcms='cloneMyself() { git clone git@github.com:wikinee/$1.git ${2:-$1}     ; }; cloneMyself'
+alias gcms='cloneMyself() { git clone git@github.com:yongliang/$1.git ${2:-$1}     ; }; cloneMyself'
 alias cc='reset'
 alias vi='vim'
 
@@ -130,7 +130,7 @@ export HOMEBREW_BOTTLE_DOMAIN='https://mirrors.cloud.tencent.com/homebrew-bottle
 
 # for Debian
 DEBMAIL="neeyongliang@gmail.com"
-DEBFULLNAME="wikinee"
+DEBFULLNAME="yongliang"
 
 # for GPG2
 alias gpg='gpg2'

@@ -2,7 +2,7 @@
 # Program:
 #   Run this shell script after install gnome-shell.
 # History:
-#   2019/01/30  wikinee First release
+#   2019/01/30  yongliang First release
 echo "Install packages..."
 sudo apt install arc-theme git gnome-tweaks
 echo "Install packages end"

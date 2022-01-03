@@ -1,6 +1,6 @@
 #!/usr/bash
 # This script is for change ruby gem source to taobao in China.
-# Dec.17, 2015 first release by https://github.com/wikinee
+# Dec.17, 2015 first release by https://github.com/yongliang
 echo "===================Atten Before=============================="
 echo "Install Progress will you openssl, and wget,please use homebrew install it"
 echo "try finished command: brew install openssl wget"
@@ -35,7 +35,7 @@ if [ "use_ruby_china" == "" ]; then
     gem sources --remove https://gems.ruby-china.org
     gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/
     echo "please make sure only have ruby.ruby-china.org"
-fi  
+fi
 gem sources -l
 echo "usage like this: $ gem install rails"
 echo "==================Ruby Develop Finished======================"

@@ -4,7 +4,7 @@
 #    install java sun, chmod +x install_sun_java.sh
 #    shoud use root run this shellscript after download sunjdk already!
 #History:
-#2016/09/01  wikinee First release
+#2016/09/01  yongliang First release
 #last update
 
 mkdir -p /usr/lib/jvm

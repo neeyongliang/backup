@@ -2,7 +2,7 @@
 # Program:
 #   Run this shell script to get Python develop environment.
 # History:
-#   2019/01/30  wikinee First release
+#   2019/01/30  yongliang First release
 echo " Now, install python develop environment..."
 echo "udate source list..."
 sudo apt update

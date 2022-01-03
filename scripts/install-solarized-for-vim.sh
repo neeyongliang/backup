@@ -5,7 +5,7 @@
 #   - add auto change vim colorscheme to solarized.
 #   - install Vundle.vim
 # History:
-# Dec.16, 2015  wikinee First release
+# Dec.16, 2015  yongliang First release
 echo "This script need wget, ssh, github-key, and unzip?"
 echo "Sure you have those?Enter continue or quit: "
 read base_env

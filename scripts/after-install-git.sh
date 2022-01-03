@@ -4,15 +4,15 @@
 # History:
 #   2020/10/21 First release
 # Author:
-#   wikinee
+#   yongliang
 
 set -e
 mkdir $HOME/Github
 cd $HOME/Github
 
-git clone git@gitee.com:wikinee/backup.git
-git clone git@gitee.com:wikinee/custom-fonts.git
-git clone git@gitee.com:wikinee/powerline-fonts.git
+git clone git@gitee.com:yongliang/backup.git
+git clone git@gitee.com:yongliang/custom-fonts.git
+git clone git@gitee.com:yongliang/powerline-fonts.git
 git clone git@gitee.com:jiangxuefeng/v2rayL.git
 
 sh backup/scripts/install-oh-my-zsh.sh

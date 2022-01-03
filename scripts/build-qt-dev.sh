@@ -2,7 +2,7 @@
 # Program:
 #   Run this shell script to get Qt develop environment.
 # History:
-#   2021/03/31  wikinee First release
+#   2021/03/31  yongliang First release
 
 set -e
 

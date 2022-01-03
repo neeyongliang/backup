@@ -2,7 +2,7 @@
 # Program:
 # 	Run this shell script if you need redshif
 # History:
-# 	2019/01/14 wikinee first release
+# 	2019/01/14 yongliang first release
 
 echo -n "Are you need install redshift? (yes/no)"
 read -r install_choose

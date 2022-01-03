@@ -2,7 +2,7 @@
 # Program:
 # 	Run this shell script after install oh-my-zsh
 # History:
-# 	2019/01/14 wikinee first release
+# 	2019/01/14 yongliang first release
 
 echo "Check oh-my-zsh installed..."
 if [ ! -d "$HOME/.oh-my-zsh" ]; then

@@ -1,7 +1,7 @@
 {
     /*
      * http://code.visualstudio.com/docs/editor/tasks
-     * created by wikinee
+     * created by yongliang
      * 2016.12.23
      * ${workspaceRoot} the path of the folder opened in VS Code
      * ${workspaceRootFolderName} the name of the folder opened in VS Code without any slashes (/)

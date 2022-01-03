@@ -2,7 +2,7 @@
 # Program:
 #	Run this shell script after Install Ubuntu.
 # History:
-# 2017/06/04  wikinee First release
+# 2017/06/04  yongliang First release
 # may be should install from source if you frequent install system：
 #  vim, cmake, nodejs,
 
@@ -37,8 +37,8 @@ sudo apt-get install zsh git meld devhelp dconf-editor exuberant-ctags \
 
 echo "###################### Fonts ###########################"
 cd $HOME/Github
-echo "git clone git@gitee.com:wikinee/custom-fonts.git"
-git clone https://gitee.com/wikinee/backup.git
+echo "git clone git@gitee.com:yongliang/custom-fonts.git"
+git clone https://gitee.com/yongliang/backup.git
 
 echo "###################### Scripts  #######################"
 sh $HOME/Github/backup/scripts/install-oh-my-zsh.sh
