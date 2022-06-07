@@ -5,37 +5,42 @@ Configure_Backup
 
 ```shell
 .
-├── git-guide
-│   ├── git-automatic.sh
-│   ├── gitconfig
-│   ├── git-fetch.sh
-│   ├── git-hooks-commit-msg
-│   ├── gitignore-example
-│   └── git-template
-├── icons
-│   ├── GitHub-Mark-120px-plus.png
-│   ├── GitHub-Mark-32px.png
-│   ├── GitHub-Mark-64px.png
-│   ├── Octocat.jpg
-│   ├── osi_symbol.png
-│   ├── README.md
-│   └── ssh-askpass-gnome.png
+├── greate-project.md
 ├── LICENSE
+├── linux-and-mac
+│   ├── 70-fonts-noto-cjk.conf
+│   ├── debian
+│   │   ├── 70debconf
+│   │   └── debian-hacks.md
+│   ├── README.md
+│   ├── shell
+│   │   ├── inputrc
+│   │   └── zshrc
+│   └── vim
+│       ├── gruvbox.vim
+│       ├── molokai.vim
+│       ├── solarized.vim
+│       ├── vim-install-guide.md
+│       ├── vimrc
+│       ├── vimrc-mac
+│       ├── vim-syntastic-clang-check-config
+│       └── ycm-extra-conf.py
 ├── mirrors
 │   ├── android-sdk.md
-│   ├── composer-mirrors.md
 │   ├── homebrew.md
 │   ├── hzwhuang-ubuntu-ss-qt5-disco.list
-│   ├── install-ruby-by-rvm.sh
-│   ├── install-solarized-for-vim.sh
 │   ├── pip
 │   │   ├── aliyun
 │   │   │   └── pip
 │   │   ├── douban
 │   │   │   └── pip
 │   │   ├── README.MD
+│   │   ├── tuna
+│   │   │   └── pip
 │   │   └── v2ex
 │   │       └── pip
+│   ├── repo-centos-aliyun.repo
+│   ├── repo-epel-aliyun.repo
 │   ├── source-list-debian.list
 │   ├── source-list-debian-testing.list
 │   ├── source-list-deepin.list
@@ -45,16 +50,26 @@ Configure_Backup
 │   ├── source-list-sublime-text.list
 │   ├── source-list-ubuntu-china.list
 │   ├── source-list-vscode.list
-│   └── taobao-npm.md
+│   ├── sublime-text.repo
+│   ├── taobao-npm.md
+│   └── vscode.repo
 ├── README.md
-├── script
+├── scripts
+│   ├── after-install-centos.sh
 │   ├── after-install-debian.sh
+│   ├── after-install-git.sh
+│   ├── after-install-gnome-shell.sh
 │   ├── after-install-oh-my-zsh.sh
 │   ├── after-install-ubuntu.sh
-│   ├── go-dev-build.sh
+│   ├── build-python-dev.sh
+│   ├── build-qt-dev.sh
+│   ├── generator-gobject-template.rb
+│   ├── install-oh-my-zsh.sh
+│   ├── install-ruby-by-rvm.sh
+│   ├── install-solarized-for-vim.sh
 │   ├── install-sun-java8.sh
-│   ├── oh-my-zsh.sh
-│   └── spuug.rb
+│   ├── pylint.rc
+│   └── swap-capslock-and-control
 ├── software
 │   ├── clang
 │   │   ├── chromium-clang-format
@@ -70,6 +85,8 @@ Configure_Backup
 │   │   ├── CMakeLists.txt
 │   │   ├── MyCLionStyle.xml
 │   │   └── pycharm.desktop
+│   ├── deepin
+│   │   └── install-deepin-terminal.md
 │   ├── devhelp
 │   │   └── pygobjec-books.md
 │   ├── kdevelop
@@ -95,12 +112,11 @@ Configure_Backup
 │   │   ├── install-redshift.sh
 │   │   └── redshift.conf
 │   ├── sublime-text-3
+│   │   ├── python3.sublime-build
 │   │   ├── sublime-Chinese-input.md
 │   │   ├── sublime-clang-install-guide.md
-│   │   ├── sublime-fcitx.c
 │   │   ├── sublime-package-recommend.md
-│   │   ├── sublime-proxy-guide.md
-│   │   └── sublime_text.desktop
+│   │   └── sublime-proxy-guide.md
 │   ├── tmux
 │   │   ├── tmux.conf
 │   │   └── tmux-tutorial-and-configurations.md
@@ -113,26 +129,10 @@ Configure_Backup
 │   │   └── vscode-package-list.md
 │   └── yapf
 │       └── style.yapf
-└── unix-like
-    ├── 70-fonts-noto-cjk.conf
-    ├── linux-beautify.md
-    ├── linux-bug-track.md
-    ├── README.md
-    ├── shell
-    │   ├── bashrc
-    │   ├── inputrc
-    │   ├── zshrc
-    │   └── zshrc-for-mac
-    └── vim
-        ├── gruvbox.vim
-        ├── molokai.vim
-        ├── solarized.vim
-        ├── vim-install-guide.md
-        ├── vimrc
-        ├── vimrc-mac
-        ├── vim-syntastic-clang-check-config
-        └── ycm-extra-conf.py
+└── text
+    └── regex.template
+
 ```
 ### Have Fun !
 
-31 directories, 96 files
+34 directories, 92 files
